@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.keys {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.key {
+    width: 50px;
+    height: 40px;
+    letter-spacing: 20px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 4px;
+    color: rgb(4, 27, 4);
+    font-size: 35px;
+    background-color: snow;
+    cursor: pointer;
+    
+}
+
+#text {
+    text-align: center;
+    margin-top: 10%;
+}
