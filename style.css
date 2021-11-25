@@ -4,10 +4,15 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(46, 6, 6);
+}
+
 .heading{
     text-align: center;
     margin-top: 20px;
     margin-bottom: 30px;
+    color: white;
 }
 
 .keys {
@@ -24,14 +29,46 @@
     border: 1px solid black;
     text-align: center;
     margin: 4px;
-    color: rgb(4, 27, 4);
+    color: rgb(15, 170, 15);
     font-size: 35px;
     background-color: snow;
     cursor: pointer;
+    border-radius: 3px;
     
 }
 
 #text {
     text-align: center;
     margin-top: 10%;
+    color: rgb(182, 209, 212);
+}
+
+h2 {
+    text-align: center;
+    margin-top: 25px;
+}
+
+#clear {
+    color: rgb(255, 0, 0);
+    padding: 6px;
+    border-radius: 4px;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#enter {
+    color: #266e05;
+    /* background-color: rgb(58, 150, 35); */
+    padding: 6px;
+    border-radius: 4px;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+#entered {
+    color: greenyellow;
+    font-size: 30px;
 }

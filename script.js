@@ -1,8 +1,22 @@
+let letter = "";
+let enteredValue;
+
 function myFunction(text) {
+  text = document.getElementById(text).innerHTML;
+  letter = letter + text;
 
-    text = document.getElementById(text).innerHTML
+  document.getElementById("text").innerHTML = letter;
 
-    document.getElementById("text").innerHTML = text;
-    console.log();
 
+}
+
+function clearText() {
+  document.getElementById("text").innerHTML = "";
+  letter = "";
+}
+
+function enterFunc() {
+  enteredValue = document.getElementById("text").innerHTML;
+  document.getElementById("entered").innerHTML = enteredValue;
+  letter = ""
 }
